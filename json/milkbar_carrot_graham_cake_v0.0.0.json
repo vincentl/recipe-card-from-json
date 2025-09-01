@@ -105,16 +105,21 @@
     },
     {
       "name": "Milk Soak & Assembly",
+      "equipment": [
+        ["8 inch cake ring"],
+        ["Roll 6 inch wide acetate"],
+        ["10 inch cake board"]
+      ],
       "ingredients": [["Milk", "110 grams"]],
       "instructions": [
         "Slide the cooled cake out of the pan onto a clean counter, keeping the parchment underneath. Use a cake ring to cut out 2 rounds from the cake for the top layers. The remaining cake will be used for the bottom layer.",
-        "Clean the cake ring and place it in the center of a parchment-lined sheet pan. Line the inside of the ring with one strip of acetate.",
+        "Clean the cake ring and place it in the center of a parchment-lined sheet pan. Line the inside of the ring with a strip of acetate.",
         "Press the cake scraps into the ring to form an even bottom layer.",
         "Brush half of the milk evenly over the cake layer.",
         "Spread half of the liquid cheesecake evenly over the cake.",
         "Sprinkle one-third of the milk crumbs evenly over the cheesecake, pressing gently to anchor them.",
         "Spread one-third of the graham frosting evenly over the crumbs.",
-        "Insert a second strip of acetate between the cake ring and the first strip, extending the ring to 5 to 6 inches tall. Place one cake round on top of the frosting, and repeat the layering process: soak with milk, spread cheesecake, add milk crumbs, then graham frosting.",
+        "To make layering easier, cut the next layer into two half-circles. Place the half circles on top of the frosting to make a full layer. Repeat the layering process: soak with milk, spread cheesecake, add milk crumbs, then graham frosting.",
         "Place the second cake round on top. Cover with the remaining frosting, spreading evenly. Garnish with the remaining milk crumbs.",
         "Transfer the sheet pan to the freezer and freeze for at least 12 hours to set. The cake will keep in the freezer for up to 2 weeks.",
         "At least 3 hours before serving, remove the cake from the freezer. Slide it out of the ring, peel away the acetate, and transfer to a platter or cake stand. Defrost in the fridge for at least 3 hours. The finished cake can be stored, well wrapped, in the fridge for up to 5 days."

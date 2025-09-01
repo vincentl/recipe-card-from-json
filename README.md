@@ -67,9 +67,9 @@ pip install reportlab
 ### Generate a PDF
 
 ```bash
-python generate_milkbar_recipe.py \
-  --json milkbar_carrot_graham_cake_v0.0.0.json \
-  --out milkbar_carrot_graham_cake_v0.0.0.pdf
+python3 generate_recipe_from_json.py                 \
+  --json json/milkbar_carrot_graham_cake_v0.0.0.json \
+  --out pdf/milkbar_carrot_graham_cake_v0.0.0.pdf
 ```
 
 ## Attribution

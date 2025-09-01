@@ -136,6 +136,21 @@ def build_pdf(json_path, out_path):
             gap_below=8     # 0.5em below
         ))
         story.append(Spacer(1, 12))
+        
+        # equipment table exactly the text width
+        equipment = comp.get("equipment", [])
+        if equipment:
+            table = Table([["Equipment"]] + equipment,
+                          colWidths=[doc.width], hAlign='LEFT', spaceAfter=12)
+            table.setStyle(TableStyle([
+                ('BACKGROUND', (0,0), (-1,0), colors.steelblue),
+                ('TEXTCOLOR', (0,0), (-1,0), colors.white),
+                ('ALIGN', (0,0), (-1,-1), 'LEFT'),
+                ('FONTNAME', (0,0), (-1,0), "Helvetica-Bold"),
+                ('BOTTOMPADDING', (0,0), (-1,0), 6),
+                ('GRID', (0,0), (-1,-1), 0.25, colors.grey),
+            ]))
+            story.append(table)
 
         # Ingredients table exactly the text width
         ingredients = comp.get("ingredients", [])
