@@ -9,7 +9,9 @@ _All rights to the original recipes and branding belong to **Milk Bar**. This re
 ## Contents
 
 - `recipe-card-from-json.py` – PDF generator using ReportLab
-- `milkbar_carrot_graham_cake_v0.0.0.json` – Example recipe (scaled to 8-inch)
+- `milkbar_carrot_graham_cake_v0.0.0.json`
+  - Recipe scaled to from 6-inch cake to 8-inch
+  - Reduce kosher salt in graham frosting by removing final addition of 1 gram
 
 ## JSON Format
 
