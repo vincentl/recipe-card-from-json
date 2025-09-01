@@ -19,7 +19,6 @@ Each recipe JSON includes:
 {
   "title": "Milkbar Carrot Graham Cake",
   "version": "v0.0.0",
-  "line_length": 420,
   "components": [
     {
       "name": "Carrot Cake",
@@ -39,7 +38,6 @@ Each recipe JSON includes:
 
 - **title**: Display name for the PDF.
 - **version**: Version string to track edits.
-- **line_length**: Visual width of the horizontal rules in the PDF.
 - **components**: Each has a name, ingredient list, and step-by-step instructions.
 
 ## Setup & PDF Generation
