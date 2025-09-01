@@ -9,7 +9,6 @@ JSON shape (abridged):
 {
   "title": "Milkbar Carrot Graham Cake",
   "version": "v0.0.0",
-  "line_length": 420,
   "components": [
     {
       "name": "Carrot Cake",
@@ -34,10 +33,12 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import (
+    BaseDocTemplate,
     Flowable,
+    Frame,
     PageBreak,
+    PageTemplate,
     Paragraph,
-    SimpleDocTemplate,
     Spacer,
     Table,
     TableStyle,
@@ -66,8 +67,6 @@ def load_recipe_json(path: Path) -> Dict[str, Any]:
         print("WARN: Missing 'title'; defaulting to 'Recipe'.")
     if "version" not in data:
         print("WARN: Missing 'version'; footer will be blank.")
-    if "line_length" not in data:
-        print("WARN: Missing 'line_length'; defaulting to 420.")
 
     # Component-level checks
     for idx, comp in enumerate(data["components"], start=1):
@@ -112,7 +111,6 @@ class ComponentBanner(Flowable):
     with vertical spacing derived from actual font metrics.
 
     Behavior (matching the original):
-      - Lines are centered and have fixed length = `line_length`
       - Rounded caps: setLineCap(1)
       - Text is centered horizontally
       - Vertical positions use font ascent/descent for optical centering
@@ -122,7 +120,6 @@ class ComponentBanner(Flowable):
         self,
         text: str,
         container_width: float,
-        line_length: float,
         line_thickness: float = 2.83465,  # ~1 mm
         color: colors.Color = colors.HexColor("#112c4c"),
         font_name: str = "Helvetica-Bold",
@@ -136,7 +133,6 @@ class ComponentBanner(Flowable):
         super().__init__()
         self.text = text
         self.container_width = float(container_width)
-        self.line_length = float(line_length)
         self.line_thickness = float(line_thickness)
         self.color = color
         self.font_name = font_name
@@ -172,10 +168,8 @@ class ComponentBanner(Flowable):
             c.setLineWidth(self.line_thickness)
             c.setLineCap(1)  # rounded
 
-            # Center the rules horizontally at fixed length
-            eff_len = min(self.line_length, self.container_width)
-            x0 = (self.container_width - eff_len) / 2.0
-            x1 = x0 + eff_len
+            x0 = 0
+            x1 = self.container_width
 
             # Vertical positions for rules and baseline
             y_bottom = self.gap_above
@@ -198,7 +192,7 @@ def make_footer(version_text: str):
     """Bottom-right version text on each page."""
     version_text = version_text or ""
 
-    def _footer(canvas: Canvas, doc: SimpleDocTemplate) -> None:
+    def _footer(canvas: Canvas, doc: BaseDocTemplate) -> None:
         canvas.saveState()
         try:
             margin = 36  # 0.5 in
@@ -225,17 +219,31 @@ def build_pdf(json_path: str, out_path: str) -> None:
 
     title: str = data.get("title", "Recipe")
     version: str = data.get("version", "")
-    line_length: float = float(data.get("line_length", 420))
     components: List[Dict[str, Any]] = data["components"]
 
-    doc = SimpleDocTemplate(
+    doc = BaseDocTemplate(
         out_path,
         pagesize=letter,
-        rightMargin=72,   # 1.0 in
-        leftMargin=72,    # 1.0 in
-        topMargin=36,     # 0.5 in
-        bottomMargin=36,  # 0.5 in
+        leftMargin=72,
+        rightMargin=72,
+        topMargin=36,
+        bottomMargin=36,
     )
+
+    frame = Frame(
+        doc.leftMargin,
+        doc.bottomMargin,
+        doc.width,
+        doc.height,
+        leftPadding=0,
+        rightPadding=0,
+        topPadding=0,
+        bottomPadding=0
+    )
+
+    footer = make_footer(version)
+    tpl = PageTemplate(id="content", frames=[frame], onPage=footer)
+    doc.addPageTemplates(tpl)
 
     styles = getSampleStyleSheet()
     styles.add(
@@ -298,7 +306,6 @@ def build_pdf(json_path: str, out_path: str) -> None:
             ComponentBanner(
                 text=comp["name"],
                 container_width=doc.width,
-                line_length=line_length,
                 line_thickness=2.83465,
                 color=colors.HexColor("#112c4c"),
                 font_name="Helvetica-Bold",
@@ -338,8 +345,7 @@ def build_pdf(json_path: str, out_path: str) -> None:
             for step in instructions:
                 story.append(Paragraph(step, styles["InstructionBlock"]))
 
-    footer = make_footer(version)
-    doc.build(story, onFirstPage=footer, onLaterPages=footer)
+    doc.build(story)
 
 
 # -----------------------------------------------------------------------------
