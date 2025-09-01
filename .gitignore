@@ -14,10 +14,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Output PDFs
-output/
-*.pdf
-
 # Editors
 .vscode/
 .idea/
