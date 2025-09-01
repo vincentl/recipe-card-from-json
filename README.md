@@ -8,7 +8,7 @@ _All rights to the original recipes and branding belong to **Milk Bar**. This re
 
 ## Contents
 
-- `generate_recipe_from_json.py` – PDF generator using ReportLab
+- `recipe-card-from-json.py` – PDF generator using ReportLab
 - `milkbar_carrot_graham_cake_v0.0.0.json` – Example recipe (scaled to 8-inch)
 
 ## JSON Format
@@ -46,7 +46,7 @@ Each recipe JSON includes:
 
 ### Create a virtual environment
 
-**macOS / Linux**
+#### macOS / Linux
 
 ```bash
 python3 -m venv .venv
@@ -55,7 +55,7 @@ pip install --upgrade pip
 pip install reportlab
 ```
 
-**Windows (PowerShell)**
+#### Windows (PowerShell)
 
 ```powershell
 py -3 -m venv .venv
@@ -67,11 +67,17 @@ pip install reportlab
 ### Generate a PDF
 
 ```bash
-python3 generate_recipe_from_json.py                 \
+python3 recipe-card-from-json.py                     \
   --json json/milkbar_carrot_graham_cake_v0.0.0.json \
-  --out pdf/milkbar_carrot_graham_cake_v0.0.0.pdf
+  --output pdf/milkbar_carrot_graham_cake_v0.0.0.pdf
 ```
 
 ## Attribution
 
 This project was developed with the assistance of [ChatGPT (OpenAI GPT-5)](https://openai.com/).
+
+## License
+
+- Copyright (c) 2025 Vincent Lucarelli
+- This project is licensed under the [MIT License](LICENSE).
+- You are free to use, modify, and distribute this software under the terms of that license.
