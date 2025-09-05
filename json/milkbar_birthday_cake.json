@@ -1,0 +1,106 @@
+{
+  "title": "Milk Bar Birthday Cake",
+  "version": "v0.0.0",
+  "components": [
+    {
+      "name": "Assembly",
+      "equipment": [
+        ["8 inch cake ring"],
+        ["Roll 6 inch wide acetate"],
+        ["10 inch cake board"]
+      ],
+      "instructions": [
+        "Slide the cooled cake out of the pan onto a clean counter, keeping the parchment underneath. Use a cake ring to cut out 2 rounds from the cake for the top layers. The remaining cake will be used for the bottom layer.",
+        "Clean the cake ring and place it in the center of the cake board. Line the inside of the ring with a strip of acetate.",
+        "Put the cake scraps together inside the ring and use the back of your hand to tamp the scraps together into a flat even layer.",
+        "Dunk a pastry brush in the birthday cake soak and give the layer of cake a good, healthy bath of one-third of the soak.",
+        "Use the back of a spoon to spread one-fifth of the frosting in an even layer over the cake.",
+        "Sprinkle one-third of the birthday crumbs evenly over the frosting. Use the back of your hand to anchor them in place.",
+        "Use the back of a spoon to spread a second fifth of the birthday cake frosting as evenly as possible over the crumbs.",
+        "Set a cake round on top of the frosting, and repeat the process from the first layer.",
+        "Nestle the remaining cake round into the frosting. Brush with the soak and cover the top of the cake with the remaining frosting. Garnish the frosting with the remaining birthday crumbs.",
+        "Transfer the sheet pan to the freezer and freeze for a minimum of 12 hours to set The cake and filling. the cake will keep in the freezer for up to 2 weeks.",
+        "At least 3 hours before you are ready to serve the cake, pull the sheet pan out of the freezer and, using your fingers and thumbs, pop the cake out of the cake ring. Gently peel off the acetate, and transfer the cake to a platter or cake stand. Let it defrost in the fridge for a minimum of 3 hours (wrapped well in plastic, the cake can be refrigerated for up to 5 days).",
+        "Slice the cake into wedges and serve."
+      ]
+    },
+    {
+      "name": "Cake Soak",
+      "equipment": [],
+      "ingredients": [
+        ["milk", "110 grams"],
+        ["vanilla extract", "8 grams"]
+      ],
+      "instructions": ["Whisk together the milk and vanilla in a small bowl."]
+    },
+    {
+      "name": "Cake",
+      "equipment": [],
+      "ingredients": [
+        ["butter at room temperature", "110 grams"],
+        ["vegetable shortening", "120 grams"],
+        ["granulated sugar", "500 grams"],
+        ["light brown sugar", "100 grams"],
+        ["eggs", "6 large"],
+        ["buttermilk", "220 grams"],
+        ["neutral oil", "130 grams"],
+        ["clear vanilla extract", "16 grams"],
+        ["cake flour", "490 grams"],
+        ["baking powder", "12 grams"],
+        ["kosher salt", "6 grams"],
+        ["rainbow sprinkles", "100 grams"],
+        ["rainbow sprinkles", "50 grams"]
+      ],
+      "instructions": [
+        "Heat the oven to 350°f.",
+        "Combine the butter, shortening, and sugars in the bowl of a stand mixer fitted with the paddle attachment and cream together on medium-high for 2 to 3 minutes. Scrape down the sides of the bowl, add the eggs, and mix on medium-high for 2 to 3 minutes. Scrape down the sides of the bowl once more.",
+        "On low speed, stream in the buttermilk, oil, and vanilla. increase the mixer speed to medium-high and paddle for 4 to 6 minutes, until the mixture is practically white, twice the size of your original fluffy butter-and-sugar mixture, and completely homogeneous. Don’t rush the process. You’re basically forcing too much liquid into an already fatty mixture that doesn’t want to make room for that liquid. There should be no streaks of fat or liquid. Stop the mixer and scrape down the sides of the bowl.",
+        "On very low speed, add the cake flour, baking powder, salt, and the 100 grams rainbow sprinkles. Mix for 45 to 60 seconds, just until your batter comes together. Scrape down the sides of the bowl.",
+        "Spray a 13 \u00d7 18-inch sheet pan with cooking spray and line it parchment. Using a spatula, spread the cake batter in an even layer in the pan. Sprinkle the remaining 50 grams rainbow sprinkles evenly on top of the batter.",
+        "Bake the cake for 30 to 35 minutes. The cake will rise and puff, doubling in size, but will remain slightly buttery and dense. At 30 minutes, gently poke the edge of the cake with your finger: the cake should bounce back slightly and the center should no longer be jiggly. Leave the cake in the oven for an extra 3 to 5 minutes if it doesn't pass these tests. Cool on a wire rack."
+      ]
+    },
+    {
+      "name": "Crumb",
+      "equipment": [],
+      "ingredients": [
+        ["granulated sugar", "200 grams"],
+        ["light brown sugar", "50 grams"],
+        ["cake flour", "180 grams"],
+        ["baking powder", "4 grams"],
+        ["kosher salt", "4 grams"],
+        ["rainbow sprinkles", "40 grams"],
+        ["neutral oil", "80 grams"],
+        ["clear vanilla extract", "24 grams"]
+      ],
+      "instructions": [
+        "Heat the oven to 300°f.",
+        "Combine the sugars, flour, baking powder, salt, and sprinkles in the bowl of a stand mixer fitted with the paddle attachment and mix on low speed until well combined.",
+        "Add the oil and vanilla and paddle again to distribute. The wet ingredients will act as glue to help the dry ingredients form small clusters; continue paddling until that happens.",
+        "Bake for 15 minutes at 300°f.",
+        "Let the crumbs cool completely before using in a recipe or scarfing by the handful. Stored in an airtight container, the crumbs will keep fresh for 1 week at room temperature or 1 month in the fridge or freezer."
+      ]
+    },
+    {
+      "name": "Frosting",
+      "equipment": [],
+      "ingredients": [
+        ["butter at room temperature", "230 grams"],
+        ["vegetable shortening", "100 grams"],
+        ["cream cheese", "110 grams"],
+        ["glucose", "50 grams"],
+        ["corn syrup", "36 grams"],
+        ["clear vanilla extract", "24 grams"],
+        ["confectioners’ sugar", "400 grams"],
+        ["kosher salt", "4 grams"],
+        ["baking powder", "0.5 grams"],
+        ["citric acid", "0.5 grams"]
+      ],
+      "instructions": [
+        "Combine the butter, shortening, and cream cheese in the bowl of a stand mixer fitted with the paddle attachment and cream together on medium-high for 2 to 3 minutes, until the mixture is smooth and fluffy. Scrape down the sides of the bowl.",
+        "With the mixer on its lowest speed, stream in the glucose, corn syrup, and vanilla. Crank the mixer up to medium-high and beat for 2 to 3 minutes, until the mixture is silky smooth and a glossy white. Scrape down the sides of the bowl.",
+        "Add the confectioners’ sugar, salt, baking powder, and citric acid and mix on low speed just to incorporate them into the frosting. Crank the speed back up to medium-high and beat for 2 to 3 minutes, until you have a brilliant stark white, beautifully smooth frosting. It should look just like it came out of a plastic tub at the grocery store! Use the frosting immediately, or store it in an airtight container in the fridge for up to 1 week."
+      ]
+    }
+  ]
+}
