@@ -18,7 +18,7 @@ _All rights to the original recipes and branding belong to **Milk Bar**. This re
   - Scaled from 6-inch cake to 8-inch cake
 - `milkbar_strawberry_shortcake.json`
   - Scaled from 6-inch cake to 8-inch cake
-  - Jam: uses agar-agar for thickening
+  - Jam: switch from pectin to agar-agar for thickening
 
 ## JSON Format
 
