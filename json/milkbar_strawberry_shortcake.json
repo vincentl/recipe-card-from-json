@@ -1,0 +1,120 @@
+{
+  "title": "Milk Bar Strawberry Shortcake Cake",
+  "version": "v0.0.0",
+  "components": [
+    {
+      "name": "Assembly",
+      "equipment": [
+        ["8 inch cake ring"],
+        ["Roll 6 inch wide acetate"],
+        ["10 inch cake board"]
+      ],
+      "instructions": [
+        "Slide the cooled cake out of the pan onto a clean counter, keeping the parchment underneath. Use a cake ring to cut out 2 rounds from the cake for the top layers. The remaining cake will be used for the bottom layer.",
+        "Clean the cake ring and place it in the center of the cake board. Line the inside of the ring with a strip of acetate.",
+        "Put the cake scraps together inside the ring and use the back of your hand to tamp the scraps together into a flat even layer.",
+        "Dunk a pastry brush in the milk soak and give the layer of cake a good, healthy bath of one-third of the soak.",
+        "Use the back of a spoon to spread one-half of the strawberry jam in an even layer over the cake.",
+        "Sprinkle one-third of the shortcake crumbs evenly over the strawberry jam.",
+        "Use the back of a spoon to spread one-third of the sweet cream frosting as evenly as possible over the crumbs.",
+        "Set a cake round on top of the frosting, and repeat the process from the first layer.",
+        "Nestle the remaining cake round into the frosting. Brush with the soak and cover the top of the cake with the remaining frosting. Garnish the frosting with the remaining shortcake crumbs.",
+        "Wrap the cake tightly in plastic wrap, then freeze for at least 12 hours to set the cake and filling; it will keep frozen for up to two weeks.",
+        "At least 3 hours before you are ready to serve the cake, pull the sheet pan out of the freezer and, using your fingers and thumbs, pop the cake out of the cake ring. Gently peel off the acetate, and transfer the cake to a platter or cake stand. Let it defrost in the fridge for a minimum of 3 hours. Wrapped well in plastic, the cake can be refrigerated for up to 5 days."
+      ]
+    },
+    {
+      "name": "Frosting",
+      "equipment": [],
+      "ingredients": [
+        ["butter", "128 grams"],
+        ["powdered sugar (first addition)", "160 grams"],
+        ["cream cheese", "288 grams"],
+        ["powdered sugar (second addition)", "60 grams"],
+        ["salt", "4 grams"],
+        ["pinch of citric acid", "0.8 grams"],
+        ["yogurt powder", "3 grams"],
+        ["creme fraiche", "58 grams"],
+        ["clear vanilla extract", "8 grams"],
+        ["dark vanilla extract", "4 grams"]
+      ],
+      "instructions": [
+        "Place butter and the first amount of powdered sugar into a mixer and paddle until smooth and there are no lumps, scraping down the sides as needed.",
+        "Add the cream cheese, second addition of powdered sugar, salt, citric acid, and yogurt powder to the bowl and paddle again and scrape until there are no lumps.",
+        "Add creme fraiche and both extracts, mix until incorporated, and scrape."
+      ]
+    },
+    {
+      "name": "Shortcake Crumb",
+      "equipment": [],
+      "ingredients": [
+        ["cake flour", "318 grams"],
+        ["sugar", "126 grams"],
+        ["baking powder", "2 grams"],
+        ["Kosher salt", "4 grams"],
+        ["butter", "132 grams"],
+        ["dark vanilla extract", "9 grams"]
+      ],
+      "instructions": [
+        "Heat the oven to 250\u00b0F.",
+        "Combine the cake flour, sugar, baking powder, and salt in a medium bowl. Toss with your hands to mix.",
+        "Add the melted butter and vanilla extract. Toss using a spatula until the mixture starts to come together and form small clusters.",
+        "Spread the clusters on a parchment-lined sheet pan and bake for 30 minutes. The crumbs should be sandy at that point, and your kitchen should smell like buttery heaven. Cool the crumbs completely.",
+        "Crumble any shortcake crumb into clusters that are larger than ½ inch in diameter.",
+        "The crumbs will keep in an airtight container in the fridge or freezer for up to 1 month."
+      ]
+    },
+    {
+      "name": "Strawberry Jam",
+      "equipment": [],
+      "ingredients": [
+        ["strawberries - cleaned and hulled", "340 grams"],
+        ["lemon juice", "21 grams"],
+        ["sugar", "240 grams"],
+        ["Kosher salt", "4 grams"],
+        ["agar agar", "2.65 grams"]
+      ],
+      "instructions": [
+        "Prepare jam shortly before assembling the cake so it is still quite warm when layering the cake.",
+        "Place strawberries and lemon juice in the pitcher of a high speed blender.",
+        "Whisk dry ingredients in a small bowl until well combined and then add to the blender.",
+        "Start on low speed to break down strawberries and then increase to high speed for about 7 minutes.",
+        "The jam must reach 195\u00b0F to set properly."
+      ]
+    },
+    {
+      "name": "Strawberry Milk",
+      "equipment": [],
+      "ingredients": [
+        ["milk", "150 grams"],
+        ["strawberry drink mix", "18 grams"]
+      ],
+      "instructions": ["Stir until dissolved."]
+    },
+    {
+      "name": "Buttery Vanilla Cake",
+      "equipment": [],
+      "ingredients": [
+        ["room temperature butter", "230 grams"],
+        ["granulated sugar", "500 grams"],
+        ["light brown sugar", "120 grams"],
+        ["eggs", "6 large"],
+        ["buttermilk", "220 grams"],
+        ["neutral oil", "150 grams"],
+        ["dark vanilla extract", "24 grams"],
+        ["cake flour", "370 grams"],
+        ["baking powder", "8 grams"],
+        ["Kosher salt", "8 grams"]
+      ],
+      "instructions": [
+        "Heat the oven to 350\u00b0F.",
+        "Combine the butter and sugars in the bowl of a stand mixer fitted with the paddle attachment and cream together on medium-high for 2 to 3 minutes. Scrape down the sides of the bowl, add the eggs, and mix on medium-high again for 2 to 3 minutes. Scrape down the sides of the bowl once more.",
+        "On low speed, stream in the buttermilk, oil, and vanilla. Increase the mixer speed to medium-high and paddle for 4 to 6 minutes, until the mixture is practically white, twice the size of your original fluffy butter-and-sugar mixture, and completely homogenous. Don’t rush the process — you’re basically forcing too much liquid into an already fatty mixture that doesn’t want to make room for the liquid. Stop the mixer and scrape down the sides of the bowl.",
+        "On very low speed, add the cake flour, baking powder, and salt. Mix for 45 to 60 seconds, just until your batter comes together and any remnants of dry ingredients have been incorporated. Scrape down the sides of the bowl. If you see any lumps of cake flour in there while you’re scraping, mix for another 45 seconds.",
+        "Spray a 13 \u00d7 18-inch sheet pan with cooking spray and line with parchment. Using a spatula, spread the cake batter in an even layer in the pan. Give the bottom of your cake pan a tap on the countertop to even out the layer.",
+        "Bake the cake for 30 to 35 minutes. The cake will rise and puff, doubling in size, but will remain slightly buttery and dense. At 30 minutes, gently poke the edge of the cake with your finger: the cake should bounce back slightly and the center should no longer be jiggly. Leave the cake in the oven for an extra 3 to 5 minutes if it doesn’t pass these tests.",
+        "Take the cake out of the oven and cool on a wire rack or, in a pinch, in the fridge or freezer (don’t worry, it’s not cheating). The cooled cake can be stored in the fridge, wrapped in plastic wrap, for up to 5 days."
+      ]
+    }
+  ]
+}
