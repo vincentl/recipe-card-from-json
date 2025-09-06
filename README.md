@@ -8,10 +8,17 @@ _All rights to the original recipes and branding belong to **Milk Bar**. This re
 
 ## Contents
 
-- `recipe-card-from-json.py` – PDF generator using ReportLab
-- `milkbar_carrot_graham_cake_v0.0.0.json`
-  - Recipe scaled to from 6-inch cake to 8-inch
-  - Reduce kosher salt in graham frosting by removing final addition of 1 gram
+- `recipe-card-from-json.py` — PDF generator using ReportLab
+- `milkbar_carrot_graham_cake.json`
+  - Scaled from 6-inch cake to 8-inch cake
+  - Graham frosting: reduced kosher salt by omitting the final 1-gram addition
+- `milkbar_birthday_cake.json`
+  - Scaled from 6-inch cake to 8-inch cake
+- `milkbar_chocolate_cake.json`
+  - Scaled from 6-inch cake to 8-inch cake
+- `milkbar_strawberry_shortcake.json`
+  - Scaled from 6-inch cake to 8-inch cake
+  - Jam: uses agar-agar for thickening
 
 ## JSON Format
 
@@ -67,9 +74,9 @@ pip install reportlab
 ### Generate a PDF
 
 ```bash
-python3 recipe-card-from-json.py                     \
-  --json json/milkbar_carrot_graham_cake_v0.0.0.json \
-  --output pdf/milkbar_carrot_graham_cake_v0.0.0.pdf
+python3 recipe-card-from-json.py              \
+  --json json/milkbar_carrot_graham_cake.json \
+  --output pdf/milkbar_carrot_graham_cake.pdf
 ```
 
 ## Attribution
