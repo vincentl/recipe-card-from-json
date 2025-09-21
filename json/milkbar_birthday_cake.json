@@ -1,6 +1,6 @@
 {
   "title": "Milk Bar Birthday Cake",
-  "version": "v0.0.0",
+  "version": "v0.0.1",
   "components": [
     {
       "name": "Assembly",
@@ -74,8 +74,8 @@
       ],
       "instructions": [
         "Heat the oven to 300\u00b0F.",
-        "Combine the sugars, flour, baking powder, salt, and sprinkles in the bowl of a stand mixer fitted with the paddle attachment and mix on low speed until well combined.",
-        "Add the oil and vanilla and paddle again to distribute. The wet ingredients will act as glue to help the dry ingredients form small clusters; continue paddling until that happens.",
+        "Combine the sugars, flour, baking powder, salt, and sprinkles in medium bowl with a rubber spatula.",
+        "Add the oil and vanilla and stir too distribute. The wet ingredients will act as glue to help the dry ingredients form small clusters; continue mixing until that happens.",
         "Bake for 15 minutes at 300\u00b0F.",
         "Let the crumbs cool completely before using in a recipe or scarfing by the handful. Stored in an airtight container, the crumbs will keep fresh for 1 week at room temperature or 1 month in the fridge or freezer."
       ]
