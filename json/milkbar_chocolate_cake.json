@@ -76,12 +76,12 @@
       "name": "Malt Frosting",
       "equipment": [],
       "ingredients": [
-        ["unsalted butter", "696 grams"],
-        ["powdered sugar", "996 grams"],
-        ["kosher salt", "18 grams"],
-        ["cocoa powder", "66 grams"],
-        ["Ovaltine™", "66 grams"],
-        ["whole milk", "156 grams"]
+        ["unsalted butter", "454 grams"],
+        ["powdered sugar", "650 grams"],
+        ["kosher salt", "11.7 grams"],
+        ["cocoa powder", "43 grams"],
+        ["Ovaltine™", "43 grams"],
+        ["whole milk", "102 grams"]
       ],
       "instructions": [
         "Combine the butter, sugar, salt, and cocoa powder and Ovaltine™ in the bowl of a stand mixer fitted with the paddle attachment and cream together on medium-high for 5 to 7 minutes, until the mixture is smooth and fluffy. Scrape down the sides of the bowl.",
@@ -92,13 +92,13 @@
       "name": "Malt Fudge Sauce",
       "equipment": [],
       "ingredients": [
-        ["72% chocolate - chopped", "120 grams"],
-        ["Ovaltine™", "160 grams"],
-        ["molasses", "10 grams"],
-        ["kosher salt", "2 grams"],
-        ["glucose", "400 grams"],
-        ["granulated sugar", "100 grams"],
-        ["heavy cream", "220 grams"]
+        ["72% chocolate - chopped", "95 grams"],
+        ["Ovaltine\u2122", "127 grams"],
+        ["molasses", "8 grams"],
+        ["kosher salt", "1.6 grams"],
+        ["glucose", "317 grams"],
+        ["granulated sugar", "79 grams"],
+        ["heavy cream", "174 grams"]
       ],
       "instructions": [
         "Combine the chocolate, Ovaltine™, and salt in medium bowl.",
@@ -109,7 +109,7 @@
     {
       "name": "Marshmallow",
       "equipment": [],
-      "ingredients": [["mini marshmallows", "300 grams"]],
+      "ingredients": [["mini marshmallows", "150 grams"]],
       "instructions": [
         "Spread the marshmallows out evenly on an unlined sheet pan and char them to hell and back with a blowtorch. Transfer the pan to the fridge or freezer for 10 minutes to firm up and make them easier to handle. Use immediately or store in an airtight container at room temperature for up to 1 week."
       ]
